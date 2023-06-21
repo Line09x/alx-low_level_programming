@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
-* jack_bauer - prints every minute of the day of Jack Bauer
-* starting from 00:00 to 23:59
+* times_table - prints the 9 times table, starting with 0
 */
 
-void main(void)
+void times_table(void)
 {
 int a, b, c;
 for (a = 0; a < 10; a++)
@@ -20,7 +19,7 @@ _putchar(c + '0');
 
 if (c < 10 && b != 0)
 {
- _putchar(',');
+_putchar(',');
 _putchar(' ');
 _putchar(c + '0');
 }
